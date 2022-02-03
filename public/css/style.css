@@ -1,0 +1,588 @@
+
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+  }
+
+.dividers{
+    background:rgb(230, 236, 240);
+}
+
+.toplogo img:hover{
+    background:rgba(29, 161, 242,0.2);
+    padding:10px;
+    width:30px;
+    cursor:pointer;
+    border-radius:50%;
+
+  }
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect{
+    fill: #4691f6;
+  }
+  .svg-icon  {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+
+  .arrowleft{
+      padding:10px;
+    width:40px;
+  }
+.arrowleft path{
+    fill: #4691f6;
+}
+.arrowleft:hover{
+    background:rgba(29, 161, 242,0.2);
+    width:40px;
+    border-radius:50%;
+    fill: #4691f6;
+    cursor:pointer;
+}
+  .svg-icon path:hover,
+  .svg-icon polygon:hover,
+  .svg-icon rect:hover{
+    fill: #4691f6;
+  }
+  .svg-icon circle:hover {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+  .sidebarlinks ul li a{
+    font-size:18px;
+  }
+  .sidebarlinks ul li p{
+    font-size:18px;
+    color: black;
+  }
+
+  .notifymessages span{
+    font-weight:normal;
+    font-size:15px;
+    cursor: pointer;
+  }
+  .notifymessages{
+    font-weight:normal;
+    position:fixed;
+    background:rgba(29, 161, 242,0.2);
+    border:none;
+    color: #4691f6;
+    border-radius:100px;
+    bottom:20px;
+    right:20px;
+  }
+
+  a{
+      color: black;
+      padding:14px;
+  }
+  a:link:hover{
+      color: #4691f6;
+  }
+
+.sendtweetssection button{
+    background:#4691f6;
+    color:white;
+    border-radius:25px;
+}
+
+.sendtweetssection button:hover{
+    background:#1e6cd4;
+    color:white;
+}
+.sidebarlinks ul li a:hover{
+    background:rgba(29, 161, 242,0.2);
+    border-radius:28px;
+    color:#4691f6;
+  }
+
+
+  .sidebarlinks ul li a:active{
+    border-radius:28px;
+    color:#4691f6;
+  }
+
+  .btn-outline-primary-follow{
+    background:none;
+    color:#4691f6;
+    border:1px solid #4691f6;
+     border-radius:25px;
+ }
+ .btn-outline-primary-follow:hover{
+     background:#4691f6;
+    color:white;
+    border:1px solid #4691f6;
+     border-radius:25px;
+ }
+
+ .btn-primary-following{
+     background:#4691f6;
+    color:white;
+    border:1px solid #4691f6;
+     border-radius:25px;
+ }
+ .btn-primary-following:hover{
+     background:#4691f6;
+    color:white;
+    border:1px solid #4691f6;
+     border-radius:25px;
+ }
+
+  .leftbuttontweet button{
+    background:#4691f6;
+    color:white;
+    border-radius:25px;
+  }
+
+  .leftbuttontweet button:hover{
+    background:#1e6cd4;
+    color:white;
+  }
+
+  .more:hover {
+    background:rgba(29, 161, 242,0.2);
+     border-radius:25px;
+   }
+   .more a{
+     font-size:19px;
+     font-weight:bold;
+   }
+   .bottomuser:hover{
+    background:rgba(29, 161, 242,0.2);
+  border-radius:50px;
+ }
+
+ .dropleft svg{
+    width:35px;
+    padding:5px;
+    border-radius:50%;
+    }
+
+.dropleft svg:hover{
+    background:rgba(29, 161, 242,0.2);
+    width:35px;
+    padding:5px;
+    border-radius:50%;
+    }
+
+
+.dropdownhomechoices label:hover{
+    background:rgba(29, 161, 242,0.2);
+    cursor: pointer;
+    width:100%;
+    text-align:left;
+}
+
+.replyoption label:hover{
+    background:rgba(29, 161, 242,0.2);
+    width:100%;
+    text-align:left;
+  }
+
+  .replyoption span, svg{
+    color:#4691f6;
+    fill:#4691f6;
+  }
+.replyoption:hover{
+
+    background:rgba(29, 161, 242,0.2);
+    border-radius:25px;
+}
+
+
+  .profilelinks a{
+    font-size:19px;
+    color:grey;
+    font-weight:bold;
+  }
+
+  .profilelinks a:hover{
+       background:rgba(29, 161, 242,0.2);
+      color: #4691f6;
+      text-decoration:none;
+      cursor:pointer;
+  }
+
+  .profilelinks a:visted{
+    border-radius:5px;
+      color: #4691f6;
+      cursor:pointer;
+      border-bottom:2px solid #4691f6;
+  }
+
+
+  .notfybutton a:hover{
+    color: #4691f6;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+  .notfybutton:hover{
+    background:rgba(29, 161, 242,0.2);
+    color: #4691f6;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+  .tweetsicon svg{
+    stroke:grey;
+     padding:10px;
+      width:40px;
+  }
+
+  .tweetsicon svg:hover{
+
+       background:rgba(29, 161, 242,0.2);
+      width:40px;
+      border-radius:50%;
+      fill: #4691f6;
+      cursor:pointer;
+  }
+
+  .tweetsicon .bookmark, .like{
+    text-align:center;
+    border:none;
+    border-radius:50%;
+    padding:0px;
+    background:none;
+
+ }
+
+ .tweetsicon .bookmark:hover, .like:hover{
+
+    background:rgba(29, 161, 242,0.2);
+    border-radius:50%;
+    fill: #4691f6;
+    padding: 0px;
+    border: none;
+    cursor:pointer;
+
+ }
+
+
+
+.svg-iconuser{
+    stroke:grey;
+     padding:10px;
+      width:40px;
+}
+
+.svg-iconuser:hover{
+
+    background:rgba(29, 161, 242,0.2);
+   width:40px;
+   border-radius:50%;
+   fill: rgb(108, 194, 246);
+   cursor:pointer;
+}
+
+
+.leftsearch input{
+    background: rgb(230, 236, 240);
+    color: black;
+    height: 40px;
+    }
+
+    .friendlistedleft{
+      background:rgb(230, 236, 240);
+      border-radius:10px;
+    }
+
+    .lefttrendtweets{
+        background:rgb(230, 236, 240);
+           border-radius:10px;
+     }
+
+    .bookmarkmore:hover{
+        background:rgba(29, 161, 242,0.2);
+     border-radius:50%;
+     fill: rgb(108, 194, 246);
+     cursor:pointer;
+  }
+
+  .friendlistedlefttofollow{
+    background:rgb(230, 236, 240);
+    border-radius:10px;
+
+  }
+
+  .friendlistedsuggestedall{
+    background:rgb(230, 236, 240);
+    border-radius:0px;
+  }
+  .friendlistedsuggested:hover{
+        background:rgb(230, 230, 230);
+    width:inherit;
+    cursor: pointer;
+    border-radius:10px;
+  }
+  .friendlistedleftsecond:hover, .friendlistedlefttofollowmore:hover{
+    background:rgb(230, 230, 230);
+    width:inherit;
+    cursor: pointer;
+    border-radius:10px;
+   }
+.friendlistedtweetsecond:hover{
+    background:rgb(230, 230, 230);
+    width:inherit;
+    cursor: pointer;
+}
+
+   .trendtweetshover:hover{
+    background:rgb(230, 236, 240);
+    cursor: pointer;
+  }
+  .tweetbody img{
+    border-radius:30px;
+    border:none;
+    background: none;
+  }
+  .tweetbody video{
+    border-radius:30px;
+    border:none;
+    background: none;
+  }
+
+#file-input {
+  display: none;
+}
+.publishicon{
+    width:35px;
+    padding:5px;
+    }
+
+.publishicon:hover{
+    background:rgba(29, 161, 242,0.2);
+    width:35px;
+    padding:5px;
+    cursor:pointer;
+    border-radius:50%;
+    }
+    .sinupdown button{
+        border-radius:25px;
+        background:rgb(29, 161, 242);
+        font-weight:bold;
+        color: white;
+      }
+
+      .sinupdown button:hover{
+        border-radius:25px;
+        background:rgb(24, 133, 201);
+        font-weight:bold;
+        color: white;
+      }
+
+     .sinupscreen form input{
+        border:none;
+        width:inherit;
+        background:none;
+        height:20px;
+      }
+     .sinupscreen form input .form-control:focus {
+        border-color: inherit;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: rgba(112, 195, 246, 0.1);
+      }
+
+    .sinupscreen form .emaildiv{
+        background:rgba(112, 195, 246, 0.1);
+        border-bottom:3px solid grey;
+     }
+
+    .sinupscreen form .passworddiv{
+        background:rgba(112, 195, 246, 0.1);
+        border-bottom:3px solid grey;
+     }
+
+  .sinupscreen form .namediv{
+        background:rgba(112, 195, 246, 0.1);
+        border-bottom:3px solid grey;
+     }
+
+
+
+    .loginscreen form .emaildiv{
+        background:rgba(112, 195, 246, 0.1);
+        border-bottom:3px solid grey;
+     }
+     .loginscreen form .emaildiv input{
+       border:none;
+       background:none;
+     }
+
+
+     .loginscreen form .passworddiv{
+        background:rgba(112, 195, 246, 0.1);
+        border-bottom:3px solid grey;
+     }
+     .loginscreen form .passworddiv input{
+       border:none;
+       background:none;
+     }
+
+     .logindown button{
+        border-radius:25px;
+        background:rgb(29, 161, 242);
+        font-weight:bold;
+        color: white;
+      }
+      .logindown button:hover{
+        border-radius:25px;
+        background:rgb(24, 133, 201);
+        font-weight:bold;
+        color: white;
+      }
+      .logindown a{
+        color:rgb(29, 161, 242);
+        font-weight:normal;
+      }
+
+
+      .updatebutton button{
+        border-radius:25px;
+        background:rgb(29, 161, 242);
+        font-weight:bold;
+        color: white;
+      }
+      ..updatebutton button:hover{
+        border-radius:25px;
+        background:rgb(24, 133, 201);
+        font-weight:bold;
+        color: white;
+      }
+
+
+
+.updatediv{
+        background:rgba(112, 195, 246, 0.1);
+        border-bottom:3px solid grey;
+     }
+
+
+
+.updatediv input,textarea{
+    border:none;
+        width:inherit;
+        background:none;
+        padding:3px;
+        height:auto;
+    }
+
+
+.updatediv form input,textarea{
+        border:none;
+        width:inherit;
+        background:none;
+        height:20px;
+      }
+.conversation{
+        border-radius:25px;
+        background:rgb(29, 161, 242);
+        font-weight:normal;
+        color: white;
+      }
+.conversation:hover{
+        border-radius:25px;
+        background:rgb(24, 133, 201);
+        font-weight:normal;
+        color: white;
+      }
+.leftsidemessage div{
+        top:50%;
+        left:90px;
+        position:absolute;
+        }
+#sendmessageshortcut button{
+            color: #4691f6;
+          }
+#sendmessageshortcut button:focus{
+            border:none;
+          }
+@media screen and (max-width: 991px) {
+.sidebar{
+display:none;
+}
+}
+
+
+@media screen and (min-width: 991px) {
+    .sidebottom{
+    display:none;
+    }
+    .buttonfixedbottom{
+      display:none;
+    }
+    }
+@media screen and (max-width: 991px) {
+        .leftside{
+        display:none;
+    }
+    .buttonfixedbottom{
+      display:block;
+    }
+   }
+.buttonfixedbottom{
+    background:#4691f6;
+    bottom:60px;
+    width:70px;
+    height:70px;
+    color:white;
+    left:10px;
+    border-radius:50%;
+
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top:0px;
+  }
+  .sidenav p{
+      font-size: 20px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top:1px;
+        right: 25px;
+        color:#4691f6;;
+        font-weight:normal;
+        font-size: 26px;
+      }
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
